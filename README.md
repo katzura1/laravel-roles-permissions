@@ -30,6 +30,7 @@ namespace App\Http\Middleware;
 use App\Models\Permission;
 use Closure;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 class CheckRoles
 {
